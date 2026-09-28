@@ -385,3 +385,11 @@ html,body{overflow-x:hidden}@media(max-width:600px){.university-lockups{width:mi
 .task-video.has-video span{font-size:10px}
 .task-video.has-video small{font-size:8.5px}
 .task-card h4{font-weight:700;font-size:13.5px;color:#16233a}
+
+/* Round 17: Figure 4 multi-round refinement bar chart + dated note under the VLM figure */
+.refine-chart{max-width:900px;margin:0 auto;padding:18px 20px 10px;border:1px solid #d5deea;border-radius:8px;background:#fff;box-shadow:0 14px 38px #1834580a}
+.refine-chart svg{display:block;width:100%;height:auto}
+.refine-chart .rf-bar rect{transition:opacity .15s}
+.refine-chart svg:hover .rf-bar rect{opacity:.55}
+.refine-chart svg:hover .rf-bar:hover rect{opacity:1}
+.figure-note{margin:10px 0 0;font:italic 13px/1.6 "Newsreader",Georgia,serif;color:#6a778a}
